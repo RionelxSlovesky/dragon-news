@@ -11,7 +11,7 @@ const RightNav = () => {
                 <Button variant="outline-danger" className='mb-2'><FaGoogle></FaGoogle> Login With Google</Button>
                 <Button variant="outline-secondary"><FaGithub></FaGithub> Login With Google</Button>
                 <div>
-                    <h4>Find us on</h4>
+                    <h4 className='mt-4'>Find us on</h4>
                     <ListGroup>
                         <ListGroup.Item variant='primary'><FaFacebook></FaFacebook> facebook</ListGroup.Item>
                         <ListGroup.Item variant='warning'><FaInstagram></FaInstagram> instagram</ListGroup.Item>
